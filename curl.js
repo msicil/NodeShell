@@ -4,7 +4,7 @@ module.exports = function(url) {
 		if (err) {
 			throw err;
 		} else {
-			process.stdout.write('body:', body); // Print the HTML for the Google homepage.
+			process.stdout.write(body); // Print the HTML for the Google homepage.
 		}
 	});
 };
